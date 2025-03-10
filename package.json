@@ -1,0 +1,29 @@
+{
+  "name": "eris",
+  "version": "0.0.2",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm i && npm run vite",
+    "vite": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/anteroul/Eris2D.git"
+  },
+  "author": "Uljas Lindell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anteroul/Eris2D/issues"
+  },
+  "homepage": "https://github.com/anteroul/Eris2D#readme",
+  "description": "Browser-based 2D Engine",
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "raylib": "^0.14.0",
+    "systeminformation": "^5.25.11",
+    "vite": "^6.2.1",
+    "webgpu": "^0.2.11"
+  },
+  "devDependencies": {}
+}
